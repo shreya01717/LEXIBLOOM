@@ -18,7 +18,8 @@ LexiBloom is a web application designed to assist students with **Dyslexia, ADHD
 
 # 1. Clone the repository
 git clone https://github.com/shreya01717/LexiBloom.git
-cd LexiBloom
+cd lexi
+
 
 # 2. Set up the backend
 cd backend
