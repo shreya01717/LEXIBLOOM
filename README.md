@@ -16,11 +16,11 @@ LexiBloom is a web application designed to assist students with **Dyslexia, ADHD
 
 ## How to Run Locally
 
-### 1. Clone the Repository
-```bash
+# 1. Clone the repository
 git clone https://github.com/shreya01717/LexiBloom.git
 cd LexiBloom
 
+# 2. Set up the backend
 cd backend
 
 # Create virtual environment (optional)
@@ -31,10 +31,15 @@ python -m venv venv
 venv\Scripts\activate
 # Mac/Linux
 source venv/bin/activate
+
+# Install backend dependencies
+pip install -r requirements.txt
+
 # Run the Flask server
 python app.py
-# Install dependencies
-pip install -r requirements.txtcd ../fronthead1
+
+# 3. Set up and run the frontend
+cd ../fronthead1
 npm install
 npm start
 
